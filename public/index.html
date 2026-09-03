@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Project Quality — Sistema di gestione su misura per la tua PMI</title>
+<link rel="icon" href="https://projectqualitystudio.it/wp-content/uploads/2024/07/cropped-cropped-PQS__Logotipo_PQ-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://projectqualitystudio.it/wp-content/uploads/2024/07/cropped-cropped-PQS__Logotipo_PQ-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://projectqualitystudio.it/wp-content/uploads/2024/07/cropped-cropped-PQS__Logotipo_PQ-180x180.png" />
+<meta name="description" content="Project Quality affianca la tua azienda passo dopo passo: analisi, sistema di gestione su misura e certificazione ISO 9001, 14001, 45001. Consulenti diretti, nel Triveneto e in Lombardia." />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Project Quality",
+  "description": "Consulenza in sistemi di gestione ISO 9001, ISO 14001, ISO 45001, marcatura CE, sicurezza sul lavoro e GDPR per PMI nel Triveneto e in Lombardia.",
+  "url": "https://projectquality.it",
+  "telephone": "+39 0437 804143",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Z.I. Gresal n. 36",
+    "postalCode": "32036",
+    "addressLocality": "Sedico",
+    "addressRegion": "BL",
+    "addressCountry": "IT"
+  },
+  "areaServed": ["Triveneto", "Lombardia"],
+  "email": "commerciale@projectquality.it",
+  "knowsAbout": ["ISO 9001", "ISO 14001", "ISO 45001", "Marcatura CE", "Sicurezza sul lavoro D.lgs. 81/2008", "GDPR"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quanto tempo serve per ottenere la certificazione ISO 9001?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dipende dal punto di partenza dell'azienda: con un sistema già parzialmente organizzato servono in media 3-4 mesi tra analisi, mappatura dei processi e audit di certificazione. Non offriamo scorciatoie: costruiamo un sistema che funziona davvero, non solo un documento pronto per l'audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cosa succede se non adeguo la sicurezza sul lavoro (D.lgs. 81/2008)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'azienda resta esposta a sanzioni amministrative e penali in caso di infortunio, oltre a un premio INAIL più alto. Con un sistema di gestione della sicurezza a norma, invece, si riduce il rischio operativo e in molti casi anche il premio assicurativo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "La marcatura CE è obbligatoria per il mio prodotto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È obbligatoria per tutti i prodotti che rientrano nelle direttive europee applicabili (macchine, dispositivi, materiali da costruzione, ecc.). Senza marcatura CE il prodotto non può essere venduto legalmente nel mercato UE. Verifichiamo insieme a te se il tuo prodotto rientra nell'obbligo e ti seguiamo in tutto il percorso di adeguamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come mi aiutate a essere in regola con il GDPR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mappiamo i trattamenti di dati personali della tua azienda, redigiamo la documentazione richiesta (registro dei trattamenti, informative, nomine) e formiamo il personale. L'obiettivo è evitare le sanzioni (fino al 4% del fatturato) e proteggere davvero i dati di clienti e dipendenti, non solo compilare moduli."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'è Concretum 2.0 e come si integra nel percorso di certificazione?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Concretum 2.0 è il software proprietario con cui mappiamo i processi della tua azienda durante la fase di analisi. Non sostituisce il nostro lavoro sul campo: è lo strumento che ci permette di costruire un sistema di gestione su misura, tracciabile e aggiornabile nel tempo, non uno standard preconfezionato."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dopo la certificazione, il vostro supporto finisce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Il certificato non è il traguardo finale: continuiamo a seguire l'azienda per il miglioramento continuo del sistema, gli audit di sorveglianza periodici e l'aggiornamento alle nuove versioni delle norme (es. la nuova ISO 9001:2026 in arrivo)."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --navy:#203b72;
+    --blue:#046bd2;
+    --blue-dark:#045cb4;
+    --bg-soft:#F0F5FA;
+    --slate-700:#334155;
+    --slate-500:#475569;
+    --slate-300:#D1D5DB;
+    --green:#0f7a4d;
+    --green-bg:#eafaf1;
+    --red:#b3261e;
+    --red-bg:#fdecea;
+    --amber-bg:#fff7e6;
+    --amber-border:#f0c14b;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--slate-700);
+    background:#ffffff;
+    line-height:1.55;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+  img{max-width:100%;display:block;}
+
+  /* header */
+  header.site{
+    position:sticky;top:0;z-index:20;
+    background:#ffffff;border-bottom:1px solid #eef1f5;
+  }
+  .site-header-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 0;gap:20px;
+  }
+  .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;color:var(--navy);text-decoration:none;letter-spacing:-.01em;}
+  .logo img{height:34px;width:auto;border-radius:4px;}
+  nav.main-nav{display:flex;gap:26px;font-size:.92rem;font-weight:600;}
+  nav.main-nav a{text-decoration:none;color:var(--slate-700);}
+  nav.main-nav a:hover{color:var(--blue);}
+  .btn{
+    display:inline-block;padding:12px 22px;border-radius:8px;font-weight:700;font-size:.95rem;
+    text-decoration:none;border:2px solid transparent;cursor:pointer;
+  }
+  .btn-primary{background:var(--blue);color:#fff;box-shadow:0 4px 14px rgba(4,107,210,.25);}
+  .btn-primary:hover{background:var(--blue-dark);}
+  .btn-ghost{background:transparent;color:var(--navy);border-color:var(--slate-300);}
+  .btn-ghost:hover{border-color:var(--navy);}
+  .header-cta{display:none;}
+  @media(min-width:860px){ .header-cta{display:inline-block;} }
+  nav.main-nav{display:none;}
+  @media(min-width:860px){ nav.main-nav{display:flex;} }
+
+  /* hero */
+  .hero{
+    background:linear-gradient(180deg,var(--bg-soft) 0%,#ffffff 100%);
+    padding:64px 0 56px;
+  }
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center;}
+  @media(min-width:900px){ .hero-grid{grid-template-columns:1.1fr .9fr;} }
+  .kicker{
+    display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--blue);background:#e8f2fd;padding:5px 12px;border-radius:999px;margin-bottom:16px;
+  }
+  h1{
+    font-size:2.3rem;line-height:1.15;color:var(--navy);margin:0 0 16px;font-weight:800;letter-spacing:-.01em;
+  }
+  @media(min-width:700px){ h1{font-size:2.9rem;} }
+  .hero p.lead{font-size:1.08rem;color:var(--slate-500);margin:0 0 28px;max-width:560px;}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+  .hero-ctas .secondary-link{font-weight:700;font-size:.92rem;color:var(--navy);text-decoration:underline;text-underline-offset:3px;}
+  .hero-visual{
+    position:relative;border-radius:16px;overflow:hidden;box-shadow:0 20px 50px -20px rgba(32,59,114,.35);
+    background:#e6ebf2;
+  }
+  .hero-visual img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:4/3;}
+  .hero-visual-overlay{
+    position:absolute;left:12px;right:12px;bottom:12px;background:rgba(255,255,255,.95);
+    border-radius:12px;padding:14px 16px;backdrop-filter:blur(2px);
+  }
+  .hero-visual .stat-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;font-size:.86rem;gap:10px;}
+  .hero-visual .stat-label{color:var(--slate-500);}
+  .hero-visual .stat-value{font-weight:800;color:var(--navy);}
+  .hero-visual .badge-ok{display:inline-block;background:var(--green-bg);color:var(--green);font-size:.72rem;font-weight:800;padding:3px 9px;border-radius:999px;white-space:nowrap;}
+
+  section{padding:56px 0;}
+  h2.section-title{font-size:1.7rem;color:var(--navy);font-weight:800;margin:0 0 10px;letter-spacing:-.01em;}
+  p.section-subtitle{color:var(--slate-500);font-size:1rem;max-width:640px;margin:0 0 32px;}
+  .center{text-align:center;}
+  .center p.section-subtitle{margin-left:auto;margin-right:auto;}
+
+  /* posta in gioco */
+  .stakes{background:var(--navy);color:#fff;}
+  .stakes h2.section-title{color:#fff;}
+  .stakes-grid{display:grid;grid-template-columns:1fr;gap:20px;}
+  @media(min-width:820px){ .stakes-grid{grid-template-columns:1fr 1fr;} }
+  .stakes-card{border-radius:14px;padding:26px 24px;}
+  .stakes-card.fail{background:rgba(179,38,30,.18);border:1px solid rgba(255,255,255,.15);}
+  .stakes-card.win{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);}
+  .stakes-card h3{margin:0 0 10px;font-size:1rem;text-transform:uppercase;letter-spacing:.06em;}
+  .stakes-card.fail h3{color:#ff9c94;}
+  .stakes-card.win h3{color:#8ff0c0;}
+  .stakes-card p{margin:0;color:rgba(255,255,255,.92);font-size:.98rem;}
+
+  /* valore */
+  .value-grid{display:grid;grid-template-columns:1fr;gap:16px;}
+  @media(min-width:700px){ .value-grid{grid-template-columns:1fr 1fr;} }
+  @media(min-width:1020px){ .value-grid{grid-template-columns:1fr 1fr 1fr;} }
+  .value-card{border:1px solid #e6ebf2;border-radius:14px;padding:22px;background:#fff;}
+  .value-card .feature{font-size:.78rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--blue);margin-bottom:8px;}
+  .value-card p{margin:0;color:var(--slate-700);font-size:.96rem;}
+
+  /* guida */
+  .guide{background:var(--bg-soft);}
+  .guide-grid{display:grid;grid-template-columns:1fr;gap:28px;}
+  @media(min-width:900px){ .guide-grid{grid-template-columns:1fr 1fr;} }
+  .guide-card{background:#fff;border-radius:14px;padding:26px;border:1px solid #e6ebf2;}
+  .guide-card h3{margin:0 0 12px;color:var(--navy);font-size:1.05rem;}
+  .partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+  .partner-chip{background:var(--bg-soft);border:1px solid #dfe7f0;border-radius:999px;padding:6px 14px;font-size:.82rem;font-weight:700;color:var(--navy);}
+  .cert-chip{background:#e8f2fd;color:var(--blue-dark);border-radius:999px;padding:6px 14px;font-size:.82rem;font-weight:800;}
+
+  .partner-logos{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px;}
+  .partner-logos .logo-box{
+    flex:1 1 130px;max-width:150px;height:64px;background:#fff;border:1px solid #e6ebf2;border-radius:10px;
+    display:flex;align-items:center;justify-content:center;padding:8px;
+  }
+  .partner-logos .logo-box img{max-height:100%;max-width:100%;object-fit:contain;}
+  .partner-logos .logo-box.dark{background:#111;}
+
+  /* piano */
+  .plan-grid{display:grid;grid-template-columns:1fr;gap:22px;}
+  @media(min-width:820px){ .plan-grid{grid-template-columns:repeat(3,1fr);} }
+  .plan-step{position:relative;border:1px solid #e6ebf2;border-radius:14px;padding:28px 22px 22px;background:#fff;}
+  .plan-step .num{
+    width:36px;height:36px;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;
+    display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:1rem;
+  }
+  .plan-step h3{margin:0 0 8px;color:var(--navy);font-size:1.05rem;}
+  .plan-step p{margin:0;font-size:.93rem;color:var(--slate-500);}
+
+  /* faq */
+  .faq-item{border-bottom:1px solid #e6ebf2;padding:16px 0;}
+  .faq-item summary{cursor:pointer;font-weight:700;color:var(--navy);font-size:1rem;list-style:none;position:relative;padding-right:24px;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:'+';position:absolute;right:0;top:0;color:var(--blue);font-size:1.2rem;font-weight:800;}
+  .faq-item[open] summary::after{content:'−';}
+  .faq-item p{margin:12px 0 0;color:var(--slate-500);font-size:.94rem;line-height:1.6;}
+
+  /* cta finale */
+  .cta-final{
+    background:linear-gradient(135deg,var(--navy),#0f2447);color:#fff;border-radius:20px;
+    padding:48px 36px;text-align:center;
+  }
+  .cta-final h2{color:#fff;margin:0 0 12px;font-size:1.7rem;font-weight:800;}
+  .cta-final p{color:rgba(255,255,255,.85);max-width:560px;margin:0 auto 26px;}
+  .cta-final .btn-primary{background:#ffffff;color:var(--navy);box-shadow:none;}
+  .cta-final .btn-primary:hover{background:#eef2f8;}
+  .cta-final .secondary-link{display:block;margin-top:16px;color:#cfe0f7;font-weight:600;font-size:.9rem;text-decoration:underline;text-underline-offset:3px;}
+
+  footer{background:#0f2447;color:rgba(255,255,255,.75);padding:36px 0;font-size:.85rem;}
+  footer .foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center;}
+  footer nav{display:flex;flex-wrap:wrap;gap:18px;}
+  footer nav a{text-decoration:none;color:rgba(255,255,255,.75);}
+  footer nav a:hover{color:#fff;}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap site-header-inner">
+    <a class="logo" href="#top">
+      <img src="https://projectqualitystudio.it/wp-content/uploads/2024/07/PQS__Logo_orizzontale-1-300x109.png" alt="Project Quality" />
+    </a>
+    <nav class="main-nav">
+      <a href="#valore">Servizi</a>
+      <a href="/concretum.html">Concretum</a>
+      <a href="/casi-studio.html">Casi Studio</a>
+      <a href="/team.html">Team</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta">Contatti</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#cta">Richiedi il check-up</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker">Sistemi di gestione ISO 9001 · 14001 · 45001</span>
+      <h1>Un sistema di gestione su misura, così hai sempre il controllo — non le urgenze.</h1>
+      <p class="lead">
+        Project Quality affianca la tua PMI passo dopo passo: mappiamo i processi reali della tua azienda,
+        costruiamo un sistema su misura con Concretum 2.0 e ti seguiamo anche dopo la certificazione —
+        non un documento da esibire, un sistema che funziona ogni giorno.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#cta">Richiedi il tuo check-up operativo</a>
+        <a class="secondary-link" href="#lead-magnet">Scarica la Guida Essenziale ai Sistemi di Qualità →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="/img/titolare-sereno.webp" alt="Titolare d'azienda sereno, con il sistema di gestione sotto controllo" />
+      <div class="hero-visual-overlay">
+        <div class="stat-row"><span class="stat-label">Certificazione ISO 9001</span><span class="badge-ok">In regola</span></div>
+        <div class="stat-row"><span class="stat-label">Sicurezza sul lavoro (D.lgs. 81/2008)</span><span class="badge-ok">Conforme</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stakes">
+  <div class="wrap">
+    <div class="stakes-grid">
+      <div class="stakes-card fail">
+        <h3>Senza un sistema adeguato</h3>
+        <p>Rischi costi nascosti, sanzioni, gare pubbliche perse per requisiti mancanti e una reputazione aziendale messa alla prova — spesso te ne accorgi solo quando è già troppo tardi.</p>
+      </div>
+      <div class="stakes-card win">
+        <h3>Con un sistema su misura</h3>
+        <p>Ottieni conformità garantita, più credibilità con clienti e fornitori, e la libertà di concentrarti sulla crescita della tua azienda invece di rincorrere ogni scadenza.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="valore">
+  <div class="wrap center">
+    <h2 class="section-title">Cosa cambia davvero per la tua azienda</h2>
+    <p class="section-subtitle">Non solo servizi tecnici: ogni intervento è pensato per darti un beneficio concreto, misurabile.</p>
+  </div>
+  <div class="wrap value-grid">
+    <div class="value-card">
+      <div class="feature">Modelli organizzativi</div>
+      <p>Ruoli e responsabilità finalmente chiari: meno tempo perso a rincorrere chi deve fare cosa.</p>
+    </div>
+    <div class="value-card">
+      <div class="feature">Marcatura CE prodotti</div>
+      <p>Puoi vendere e competere anche sui mercati più esigenti, senza rischi legali sul prodotto.</p>
+    </div>
+    <div class="value-card">
+      <div class="feature">Sicurezza sul lavoro · ISO 45001</div>
+      <p>Riduci il premio INAIL e proteggi davvero le persone in azienda, non solo la carta in archivio.</p>
+    </div>
+    <div class="value-card">
+      <div class="feature">Gestione Privacy · GDPR</div>
+      <p>Eviti multe fino al 4% del fatturato e proteggi i dati di clienti e dipendenti.</p>
+    </div>
+    <div class="value-card">
+      <div class="feature">Concretum 2.0</div>
+      <p>Mappiamo i tuoi processi e riduci i tempi morti: riprendi il controllo sui tuoi margini di profitto.</p>
+    </div>
+    <div class="value-card">
+      <div class="feature">Analisi di bilancio e sviluppo strategico</div>
+      <p>Decisioni basate su numeri reali, non su sensazioni — una base solida per crescere.</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap center">
+    <h2 class="section-title">Le domande che ci fanno più spesso</h2>
+    <p class="section-subtitle">Risposte dirette, senza slogan — se non trovi la tua, scrivici.</p>
+  </div>
+  <div class="wrap" style="max-width:800px;">
+    <details class="faq-item">
+      <summary>Quanto tempo serve per ottenere la certificazione ISO 9001?</summary>
+      <p>Dipende dal punto di partenza dell'azienda: con un sistema già parzialmente organizzato servono in media 3-4 mesi tra analisi, mappatura dei processi e audit di certificazione. Non offriamo scorciatoie: costruiamo un sistema che funziona davvero, non solo un documento pronto per l'audit.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Cosa succede se non adeguo la sicurezza sul lavoro (D.lgs. 81/2008)?</summary>
+      <p>L'azienda resta esposta a sanzioni amministrative e penali in caso di infortunio, oltre a un premio INAIL più alto. Con un sistema di gestione della sicurezza a norma, invece, si riduce il rischio operativo e in molti casi anche il premio assicurativo.</p>
+    </details>
+    <details class="faq-item">
+      <summary>La marcatura CE è obbligatoria per il mio prodotto?</summary>
+      <p>È obbligatoria per tutti i prodotti che rientrano nelle direttive europee applicabili (macchine, dispositivi, materiali da costruzione, ecc.). Senza marcatura CE il prodotto non può essere venduto legalmente nel mercato UE. Verifichiamo insieme a te se il tuo prodotto rientra nell'obbligo e ti seguiamo in tutto il percorso di adeguamento.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Come mi aiutate a essere in regola con il GDPR?</summary>
+      <p>Mappiamo i trattamenti di dati personali della tua azienda, redigiamo la documentazione richiesta (registro dei trattamenti, informative, nomine) e formiamo il personale. L'obiettivo è evitare le sanzioni (fino al 4% del fatturato) e proteggere davvero i dati di clienti e dipendenti, non solo compilare moduli.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Cos'è Concretum 2.0 e come si integra nel percorso di certificazione?</summary>
+      <p>Concretum 2.0 è il software proprietario con cui mappiamo i processi della tua azienda durante la fase di analisi. Non sostituisce il nostro lavoro sul campo: è lo strumento che ci permette di costruire un sistema di gestione su misura, tracciabile e aggiornabile nel tempo, non uno standard preconfezionato.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Dopo la certificazione, il vostro supporto finisce?</summary>
+      <p>No. Il certificato non è il traguardo finale: continuiamo a seguire l'azienda per il miglioramento continuo del sistema, gli audit di sorveglianza periodici e l'aggiornamento alle nuove versioni delle norme (es. la nuova ISO 9001:2026 in arrivo).</p>
+    </details>
+  </div>
+</section>
+
+<section class="guide" id="guida">
+  <div class="wrap center">
+    <h2 class="section-title">Non un team anonimo: consulenti diretti, sul tuo territorio</h2>
+    <p class="section-subtitle">Sappiamo quanto sia frustrante gestire da solo scadenze, documenti e urgenze che non finiscono mai.</p>
+  </div>
+  <div class="wrap guide-grid">
+    <div class="guide-card">
+      <h3>Come lavoriamo con te</h3>
+      <p>Hai sempre consulenti diretti e dedicati che conoscono la tua azienda e il tuo territorio — non una pratica in coda su una piattaforma nazionale. Operiamo nel Triveneto e in Lombardia, e seguiamo ogni azienda di persona, sul campo.</p>
+    </div>
+    <div class="guide-card">
+      <h3>Perché puoi fidarti</h3>
+      <p style="margin-bottom:14px;">Aziende che oggi lavorano con noi:</p>
+      <div class="partner-logos">
+        <div class="logo-box"><img src="https://projectqualitystudio.it/wp-content/uploads/2024/07/logo2018-300x80.jpg" alt="Termoidraulica Agordina" /></div>
+        <div class="logo-box dark"><img src="https://projectqualitystudio.it/wp-content/uploads/2024/07/Logo-fondo-nero-300x61.jpg" alt="Teknomecc" /></div>
+        <div class="logo-box"><img src="https://projectqualitystudio.it/wp-content/uploads/2024/07/Logo-Jesterlux-srl-300x88.png" alt="Jesterlux" /></div>
+        <div class="logo-box"><img src="https://projectqualitystudio.it/wp-content/uploads/2024/07/Logo-De-March-268x300.png" alt="De March Meccanica" /></div>
+      </div>
+      <p style="margin:16px 0 8px;">Certificazioni che seguiamo:</p>
+      <div class="partners">
+        <span class="cert-chip">ISO 9001</span>
+        <span class="cert-chip">ISO 14001</span>
+        <span class="cert-chip">ISO 45001</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="piano">
+  <div class="wrap center">
+    <h2 class="section-title">Il percorso, in 3 passi</h2>
+    <p class="section-subtitle">Niente burocrazia infinita: un metodo chiaro, fatto sul campo insieme a te.</p>
+  </div>
+  <div class="wrap plan-grid">
+    <div class="plan-step">
+      <div class="num">1</div>
+      <h3>Analisi e mappatura sul campo</h3>
+      <p>Valutiamo i tuoi processi reali, direttamente in azienda — non un questionario a distanza.</p>
+    </div>
+    <div class="plan-step">
+      <div class="num">2</div>
+      <h3>Sviluppo del sistema su misura</h3>
+      <p>Ruoli chiari, flussi snelli, integrati con Concretum 2.0 — costruito sul tuo modo di lavorare, non uno standard.</p>
+    </div>
+    <div class="plan-step">
+      <div class="num">3</div>
+      <h3>Certificazione e miglioramento continuo</h3>
+      <p>Non solo il certificato: un sistema che continua a funzionare, con il nostro supporto, anche dopo l'audit.</p>
+    </div>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="wrap">
+    <div class="cta-final">
+      <h2>Richiedi il tuo check-up operativo</h2>
+      <p>
+        Il primo passo per abbandonare il lavoro per urgenze e iniziare a spostare il focus verso una
+        visione strategica della tua azienda.
+      </p>
+      <a class="btn btn-primary" href="mailto:commerciale@projectquality.it?subject=Richiesta%20check-up%20operativo">Richiedi il tuo check-up operativo</a>
+      <a class="secondary-link" id="lead-magnet" href="mailto:commerciale@projectquality.it?subject=Guida%20Essenziale%20ai%20Sistemi%20di%20Qualit%C3%A0">Non sei ancora pronto? Scarica la Guida Essenziale ai Sistemi di Qualità</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <span>© Project Quality — Consulenza in sistemi di gestione, Triveneto e Lombardia · P.IVA 01298170257</span>
+    <nav>
+      <a href="#valore">Servizi</a>
+      <a href="/concretum.html">Concretum</a>
+      <a href="/casi-studio.html">Casi Studio</a>
+      <a href="/team.html">Team</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta">Contatti</a>
+      <a href="https://clienti.projectquality.it" target="_blank" rel="noopener">Area riservata clienti</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
