@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: civettanet/projectquality-sito
+  branch: main
+  base_url: https://projectquality.it
+  auth_endpoint: api/auth
+
+publish_mode: simple
+media_folder: "public/img/blog"
+public_folder: "/img/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    label_singular: "Articolo"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data pubblicazione", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Estratto (per l'elenco articoli)", name: "excerpt", widget: "text", required: false }
+      - { label: "Immagine di copertina", name: "cover", widget: "image", required: false }
+      - { label: "Contenuto", name: "body", widget: "markdown" }
